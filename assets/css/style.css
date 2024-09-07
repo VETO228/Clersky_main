@@ -1,0 +1,238 @@
+*,
+*::before,
+*::after
+{
+    padding: 0;
+    margin: 0;
+}
+body { 
+    font-family: "Noto Sans", sans-serif;
+}
+.header {
+    background-color: #163a24;
+    color: #FBFAF7;
+}
+.container {
+    max-width: 1220px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+.header_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0 20px 0; 
+}
+
+.header_link {
+    color: #FBFAF7;
+}
+.header_buttons {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.btn {
+    background-color: #198C36;
+    padding: 15px 25px;
+    border-radius: 160px;
+    cursor: pointer;
+}
+.first-section {
+    background-color: #163a24;
+    height: 75.9vh;
+    background-image: url(../img/Frame.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.first-section_text_block {
+    color: #fbfaf7;
+    max-width: 475px;
+    padding-top: 120px;
+}
+.section_title {
+    font-size: 48px;
+    font-weight: bold;
+}
+.section_sub-title {
+    font-size: 18px;
+    padding-top: 18px;
+}
+.second-section_text_block {
+    color: #FBFAF7;
+    max-width: 475px;
+    padding-top: 120px;
+    padding-left: 129px;
+}
+.second-section_text_block1 {
+    align-items: center;
+    display: flex;
+}
+.second-section_text_block1_text1 {
+    position: absolute;
+    padding-left: 600px;
+}
+.second-section_title1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #163A24;
+}
+.second-section_sub-title1 {
+    font-size: 18px;
+    color: #163A24;
+    padding-top: 27px;
+    font-weight: bold;
+}
+.second-section_text_block2 {
+    display: flex;
+    align-items: center;
+}
+.second-section_logo2 {
+    padding-left: 500px
+}
+.second-section_text_block1_text2 {
+    position:absolute;
+    color: #163A24;
+}
+.second-section_title2 {
+    font-size: 48px;
+    font-weight: bold;
+}
+.second-section_sub-title2 {
+    font-size: 18px;
+    padding-top: 27px;
+    font-weight: bold;
+}
+.second-section_footer_title {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 115px;
+    color: #163A24;
+    margin-bottom: 66px;
+}
+.second-section_footer_img {
+    align-items: center;
+    gap: 86px;
+    display: flex;
+    text-align: center;
+    padding-left: 144px;
+    margin-bottom: 120px;
+}
+.third-section {
+    background-color: #163A24;
+}
+.third-section_title {
+    font-size: 48px;
+    color: #FBFAF7;
+    text-align: center;
+    padding-top: 66px;
+    padding-bottom: 74px;
+}
+.third-section_text_block {
+    display: flex;
+    text-align: center;
+    padding-bottom: 138px;
+}
+.third-section_icon1 {
+    margin-left: 380px;
+    padding-top: 67px;
+    color: #FBFAF7;
+}
+.third-section_icon2 {
+    margin-left: 147px;
+    padding-top: 68px;
+    color: #FBFAF7;
+}
+.third-section_icon3 {
+    margin-left:153px ;
+    padding-top: 67px;
+    color: #FBFAF7;
+}
+.third-section_icon4 {
+    margin-left: 184px;
+    padding-top: 67px;
+    color: #FBFAF7;
+}
+.fourt-section {
+    background-color: #f2efe6;
+}
+.fourt-section_title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #163A24;
+    text-align: center;
+    padding-top: 115px;
+}
+.fourt-section_sub-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #163A24;
+    padding-top: 26px;
+    text-align: center;
+}
+.fourt-section_img {
+    padding-bottom: 135px;
+}
+.footer_text_block {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.fifth-section_text_block {
+    display: flex;
+    text-align: left;
+    padding-top: 180px;
+    padding-bottom: 114px;
+    padding-left: 130px;
+}
+.fifth-section_text_block_title {
+    font-size: 48px;
+    color: #163A24;
+    padding-top: 97px;
+    font-weight: bold;
+}
+.fifth-section_text_block_sub-title {
+    font-size: 18px;
+    color: #163A24;
+    padding-top: 27px;
+}
+.fifth-section_text_block_img {
+    padding-left: 100px;
+}
+.footer_text_block_text {
+    color: #163A24;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 377px;
+}
+.footer_text_block_icon {
+    padding-left: 57px;
+}
+.footer_final-text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+hr {
+    color: #F2EFE6;
+    height: 1px;
+    margin-top: 19px;
+}
+.footer_final-text_company {
+    color: #163A24;
+    padding: 24px 0;
+}
+.footer_final-text_servis {
+    color: #198C36;
+    display: flex;
+    gap: 14px;
+    cursor: pointer;
+}
+.footer_final-text_servis1 {
+    padding-left: 200px;
+}
